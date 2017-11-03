@@ -1,0 +1,6 @@
+platform :ios, '8.0' 
+target 'TestFW' do
+pod 'Masonry'
+pod 'SVProgressHUD'
+pod ‘XMImageEdit’
+end

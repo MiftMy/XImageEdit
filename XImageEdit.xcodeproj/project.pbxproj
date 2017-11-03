@@ -1,0 +1,1095 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CBC755FDA690C412F3A5E6 /* libPods-XImageEdit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2047CF955B01AA1B12C1A96 /* libPods-XImageEdit.a */; };
+		2C628B051FAC0B6C00B53212 /* XImageEdit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B031FAC0B6C00B53212 /* XImageEdit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C628BB21FAC0BAD00B53212 /* APImageEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B0C1FAC0B8B00B53212 /* APImageEdit.storyboard */; };
+		2C628BB31FAC0BAD00B53212 /* APImageEditVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B0D1FAC0B8B00B53212 /* APImageEditVC.h */; };
+		2C628BB41FAC0BAD00B53212 /* APImageEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B0E1FAC0B8B00B53212 /* APImageEditVC.m */; };
+		2C628BB51FAC0BAD00B53212 /* APImageEnhance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B101FAC0B8B00B53212 /* APImageEnhance.storyboard */; };
+		2C628BB61FAC0BAD00B53212 /* APImageEnhanceVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B111FAC0B8B00B53212 /* APImageEnhanceVC.h */; };
+		2C628BB71FAC0BAD00B53212 /* APImageEnhanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B121FAC0B8B00B53212 /* APImageEnhanceVC.m */; };
+		2C628BB81FAC0BAD00B53212 /* APDrawManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B141FAC0B9000B53212 /* APDrawManager.h */; };
+		2C628BB91FAC0BAD00B53212 /* APDrawManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B151FAC0B9000B53212 /* APDrawManager.m */; };
+		2C628BBA1FAC0BAD00B53212 /* APDrawModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B161FAC0B9000B53212 /* APDrawModel.h */; };
+		2C628BBB1FAC0BAD00B53212 /* APDrawModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B171FAC0B9000B53212 /* APDrawModel.m */; };
+		2C628BBC1FAC0BAD00B53212 /* APDrawPathModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B181FAC0B9000B53212 /* APDrawPathModel.h */; };
+		2C628BBD1FAC0BAD00B53212 /* APDrawPathModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B191FAC0B9000B53212 /* APDrawPathModel.m */; };
+		2C628BBE1FAC0BAD00B53212 /* APGestureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B1A1FAC0B9000B53212 /* APGestureView.h */; };
+		2C628BBF1FAC0BAD00B53212 /* APGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B1B1FAC0B9000B53212 /* APGestureView.m */; };
+		2C628BC01FAC0BAD00B53212 /* APImageDrawboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B1C1FAC0B9000B53212 /* APImageDrawboard.h */; };
+		2C628BC11FAC0BAD00B53212 /* APImageDrawboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B1D1FAC0B9000B53212 /* APImageDrawboard.m */; };
+		2C628BC21FAC0BAD00B53212 /* APImageDrawboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B1E1FAC0B9000B53212 /* APImageDrawboard.storyboard */; };
+		2C628BC31FAC0BAD00B53212 /* APImageDrawboardVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B1F1FAC0B9000B53212 /* APImageDrawboardVC.h */; };
+		2C628BC41FAC0BAD00B53212 /* APImageDrawboardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B201FAC0B9000B53212 /* APImageDrawboardVC.m */; };
+		2C628BC51FAC0BAD00B53212 /* APImageDrawColorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B211FAC0B9000B53212 /* APImageDrawColorCell.h */; };
+		2C628BC61FAC0BAD00B53212 /* APImageDrawColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B221FAC0B9000B53212 /* APImageDrawColorCell.m */; };
+		2C628BC71FAC0BAD00B53212 /* APShowDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B231FAC0B9000B53212 /* APShowDrawView.h */; };
+		2C628BC81FAC0BAD00B53212 /* APShowDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B241FAC0B9000B53212 /* APShowDrawView.m */; };
+		2C628BC91FAC0BAD00B53212 /* APCalibrationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B261FAC0B9600B53212 /* APCalibrationView.h */; };
+		2C628BCA1FAC0BAD00B53212 /* APCalibrationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B271FAC0B9600B53212 /* APCalibrationView.m */; };
+		2C628BCB1FAC0BAD00B53212 /* APCutFrameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B281FAC0B9600B53212 /* APCutFrameView.h */; };
+		2C628BCC1FAC0BAD00B53212 /* APCutFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B291FAC0B9600B53212 /* APCutFrameView.m */; };
+		2C628BCD1FAC0BAD00B53212 /* APCutMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B2A1FAC0B9600B53212 /* APCutMaskView.h */; };
+		2C628BCE1FAC0BAD00B53212 /* APCutMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B2B1FAC0B9600B53212 /* APCutMaskView.m */; };
+		2C628BCF1FAC0BAD00B53212 /* APCutSelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B2C1FAC0B9600B53212 /* APCutSelView.h */; };
+		2C628BD01FAC0BAD00B53212 /* APCutSelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B2D1FAC0B9600B53212 /* APCutSelView.m */; };
+		2C628BD11FAC0BAD00B53212 /* APImageCut.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B2E1FAC0B9600B53212 /* APImageCut.storyboard */; };
+		2C628BD21FAC0BAD00B53212 /* APImageCutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B2F1FAC0B9600B53212 /* APImageCutCell.h */; };
+		2C628BD31FAC0BAD00B53212 /* APImageCutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B301FAC0B9600B53212 /* APImageCutCell.m */; };
+		2C628BD41FAC0BAD00B53212 /* APImageCutModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B311FAC0B9600B53212 /* APImageCutModel.h */; };
+		2C628BD51FAC0BAD00B53212 /* APImageCutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B321FAC0B9600B53212 /* APImageCutModel.m */; };
+		2C628BD61FAC0BAD00B53212 /* APImageCutScaleList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B331FAC0B9600B53212 /* APImageCutScaleList.h */; };
+		2C628BD71FAC0BAD00B53212 /* APImageCutScaleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B341FAC0B9600B53212 /* APImageCutScaleList.m */; };
+		2C628BD81FAC0BAD00B53212 /* APImageCutVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B351FAC0B9600B53212 /* APImageCutVC.h */; };
+		2C628BD91FAC0BAD00B53212 /* APImageCutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B361FAC0B9600B53212 /* APImageCutVC.m */; };
+		2C628BDA1FAC0BAD00B53212 /* XMTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B371FAC0B9600B53212 /* XMTool.h */; };
+		2C628BDB1FAC0BAD00B53212 /* XMTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B381FAC0B9600B53212 /* XMTool.m */; };
+		2C628BDC1FAC0BAD00B53212 /* APImageLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B3A1FAC0BAC00B53212 /* APImageLabel.h */; };
+		2C628BDD1FAC0BAD00B53212 /* APImageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B3B1FAC0BAC00B53212 /* APImageLabel.m */; };
+		2C628BDE1FAC0BAD00B53212 /* APImageLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B3C1FAC0BAC00B53212 /* APImageLabel.xib */; };
+		2C628BDF1FAC0BAD00B53212 /* APImageText.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B3D1FAC0BAC00B53212 /* APImageText.storyboard */; };
+		2C628BE01FAC0BAD00B53212 /* APImageTextColorCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B3E1FAC0BAC00B53212 /* APImageTextColorCell.h */; };
+		2C628BE11FAC0BAD00B53212 /* APImageTextColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B3F1FAC0BAC00B53212 /* APImageTextColorCell.m */; };
+		2C628BE21FAC0BAD00B53212 /* APImageTextFontCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B401FAC0BAC00B53212 /* APImageTextFontCell.h */; };
+		2C628BE31FAC0BAD00B53212 /* APImageTextFontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B411FAC0BAC00B53212 /* APImageTextFontCell.m */; };
+		2C628BE41FAC0BAD00B53212 /* APImageTextFontModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B421FAC0BAC00B53212 /* APImageTextFontModel.h */; };
+		2C628BE51FAC0BAD00B53212 /* APImageTextFontModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B431FAC0BAC00B53212 /* APImageTextFontModel.m */; };
+		2C628BE61FAC0BAD00B53212 /* APImageTextInputVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B441FAC0BAC00B53212 /* APImageTextInputVC.h */; };
+		2C628BE71FAC0BAD00B53212 /* APImageTextInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B451FAC0BAC00B53212 /* APImageTextInputVC.m */; };
+		2C628BE81FAC0BAD00B53212 /* APImageTextList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B461FAC0BAC00B53212 /* APImageTextList.h */; };
+		2C628BE91FAC0BAD00B53212 /* APImageTextList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B471FAC0BAC00B53212 /* APImageTextList.m */; };
+		2C628BEA1FAC0BAD00B53212 /* APImageTextModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B481FAC0BAC00B53212 /* APImageTextModel.h */; };
+		2C628BEB1FAC0BAD00B53212 /* APImageTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B491FAC0BAC00B53212 /* APImageTextModel.m */; };
+		2C628BEC1FAC0BAD00B53212 /* APImageTextVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B4A1FAC0BAC00B53212 /* APImageTextVC.h */; };
+		2C628BED1FAC0BAD00B53212 /* APImageTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B4B1FAC0BAC00B53212 /* APImageTextVC.m */; };
+		2C628BEE1FAC0BAD00B53212 /* 优雅连笔字体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B4C1FAC0BAC00B53212 /* 优雅连笔字体.ttf */; };
+		2C628BEF1FAC0BAD00B53212 /* 咪咪体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B4D1FAC0BAC00B53212 /* 咪咪体.ttf */; };
+		2C628BF01FAC0BAD00B53212 /* 左左梦巷.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B4E1FAC0BAC00B53212 /* 左左梦巷.ttf */; };
+		2C628BF11FAC0BAD00B53212 /* 慌梦.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B4F1FAC0BAC00B53212 /* 慌梦.ttf */; };
+		2C628BF21FAC0BAD00B53212 /* 方圆硬笔行书简.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B501FAC0BAC00B53212 /* 方圆硬笔行书简.ttf */; };
+		2C628BF31FAC0BAD00B53212 /* 玉米诗情体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B511FAC0BAC00B53212 /* 玉米诗情体.ttf */; };
+		2C628BF41FAC0BAD00B53212 /* 萌妹子字体(6000字).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B521FAC0BAC00B53212 /* 萌妹子字体(6000字).ttf */; };
+		2C628BF51FAC0BAD00B53212 /* APImageColorList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B541FAC0BAD00B53212 /* APImageColorList.h */; };
+		2C628BF61FAC0BAD00B53212 /* APImageColorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B551FAC0BAD00B53212 /* APImageColorList.m */; };
+		2C628BF71FAC0BAD00B53212 /* APMediaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B561FAC0BAD00B53212 /* APMediaManager.h */; };
+		2C628BF81FAC0BAD00B53212 /* APMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B571FAC0BAD00B53212 /* APMediaManager.m */; };
+		2C628BF91FAC0BAD00B53212 /* APMiddleSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B591FAC0BAD00B53212 /* APMiddleSlider.h */; };
+		2C628BFA1FAC0BAD00B53212 /* APMiddleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B5A1FAC0BAD00B53212 /* APMiddleSlider.m */; };
+		2C628BFB1FAC0BAD00B53212 /* APProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B5C1FAC0BAD00B53212 /* APProgressView.h */; };
+		2C628BFC1FAC0BAD00B53212 /* APProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B5D1FAC0BAD00B53212 /* APProgressView.m */; };
+		2C628BFD1FAC0BAD00B53212 /* APProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B5E1FAC0BAD00B53212 /* APProgressView.xib */; };
+		2C628BFE1FAC0BAD00B53212 /* SGInfoAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B5F1FAC0BAD00B53212 /* SGInfoAlert.h */; };
+		2C628BFF1FAC0BAD00B53212 /* SGInfoAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B601FAC0BAD00B53212 /* SGInfoAlert.m */; };
+		2C628C001FAC0BAD00B53212 /* XMDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B611FAC0BAD00B53212 /* XMDrawView.h */; };
+		2C628C011FAC0BAD00B53212 /* XMDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B621FAC0BAD00B53212 /* XMDrawView.m */; };
+		2C628C021FAC0BAD00B53212 /* BeautyFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B641FAC0BAD00B53212 /* BeautyFilter.h */; };
+		2C628C031FAC0BAD00B53212 /* BeautyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B651FAC0BAD00B53212 /* BeautyFilter.m */; };
+		2C628C041FAC0BAD00B53212 /* beautyFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B661FAC0BAD00B53212 /* beautyFragmentShader.glsl */; };
+		2C628C051FAC0BAD00B53212 /* beautyVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B671FAC0BAD00B53212 /* beautyVertexShader.glsl */; };
+		2C628C061FAC0BAD00B53212 /* bluevintage_mask1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B681FAC0BAD00B53212 /* bluevintage_mask1.bmp */; };
+		2C628C071FAC0BAD00B53212 /* CoolFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B691FAC0BAD00B53212 /* CoolFilter.h */; };
+		2C628C081FAC0BAD00B53212 /* CoolFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B6A1FAC0BAD00B53212 /* CoolFilter.m */; };
+		2C628C091FAC0BAD00B53212 /* coolFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B6B1FAC0BAD00B53212 /* coolFragmentShader.glsl */; };
+		2C628C0A1FAC0BAD00B53212 /* coolVertextShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B6C1FAC0BAD00B53212 /* coolVertextShader.glsl */; };
+		2C628C0B1FAC0BAD00B53212 /* CrayonFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B6D1FAC0BAD00B53212 /* CrayonFilter.h */; };
+		2C628C0C1FAC0BAD00B53212 /* CrayonFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B6E1FAC0BAD00B53212 /* CrayonFilter.m */; };
+		2C628C0D1FAC0BAD00B53212 /* crayonFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B6F1FAC0BAD00B53212 /* crayonFragmentShader.glsl */; };
+		2C628C0E1FAC0BAD00B53212 /* crayonVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B701FAC0BAD00B53212 /* crayonVertexShader.glsl */; };
+		2C628C0F1FAC0BAD00B53212 /* earlybirdblowout.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B711FAC0BAD00B53212 /* earlybirdblowout.bmp */; };
+		2C628C101FAC0BAD00B53212 /* earlybirdcurves.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B721FAC0BAD00B53212 /* earlybirdcurves.bmp */; };
+		2C628C111FAC0BAD00B53212 /* EarlyBirdFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B731FAC0BAD00B53212 /* EarlyBirdFilter.h */; };
+		2C628C121FAC0BAD00B53212 /* EarlyBirdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B741FAC0BAD00B53212 /* EarlyBirdFilter.m */; };
+		2C628C131FAC0BAD00B53212 /* earlyBirdFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B751FAC0BAD00B53212 /* earlyBirdFragmentShader.glsl */; };
+		2C628C141FAC0BAD00B53212 /* earlybirdmap.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B761FAC0BAD00B53212 /* earlybirdmap.bmp */; };
+		2C628C151FAC0BAD00B53212 /* earlybirdoverlaymap_new.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B771FAC0BAD00B53212 /* earlybirdoverlaymap_new.bmp */; };
+		2C628C161FAC0BAD00B53212 /* earlyBirdVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B781FAC0BAD00B53212 /* earlyBirdVertexShader.glsl */; };
+		2C628C171FAC0BAD00B53212 /* fairy_tale.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B791FAC0BAD00B53212 /* fairy_tale.bmp */; };
+		2C628C181FAC0BAD00B53212 /* FairytaleFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B7A1FAC0BAD00B53212 /* FairytaleFilter.h */; };
+		2C628C191FAC0BAD00B53212 /* FairytaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B7B1FAC0BAD00B53212 /* FairytaleFilter.m */; };
+		2C628C1A1FAC0BAD00B53212 /* fairytaleFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B7C1FAC0BAD00B53212 /* fairytaleFragmentShader.glsl */; };
+		2C628C1B1FAC0BAD00B53212 /* fairytaleVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B7D1FAC0BAD00B53212 /* fairytaleVertexShader.glsl */; };
+		2C628C1C1FAC0BAD00B53212 /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B7E1FAC0BAD00B53212 /* GLESMath.c */; };
+		2C628C1D1FAC0BAD00B53212 /* GLESMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B7F1FAC0BAD00B53212 /* GLESMath.h */; };
+		2C628C1E1FAC0BAD00B53212 /* GLESUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B801FAC0BAD00B53212 /* GLESUtils.h */; };
+		2C628C1F1FAC0BAD00B53212 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B811FAC0BAD00B53212 /* GLESUtils.m */; };
+		2C628C201FAC0BAD00B53212 /* InkwellFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B821FAC0BAD00B53212 /* InkwellFilter.h */; };
+		2C628C211FAC0BAD00B53212 /* InkwellFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B831FAC0BAD00B53212 /* InkwellFilter.m */; };
+		2C628C221FAC0BAD00B53212 /* inkwellFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B841FAC0BAD00B53212 /* inkwellFragmentShader.glsl */; };
+		2C628C231FAC0BAD00B53212 /* inkwellmap.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B851FAC0BAD00B53212 /* inkwellmap.bmp */; };
+		2C628C241FAC0BAD00B53212 /* inkwellVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B861FAC0BAD00B53212 /* inkwellVertexShader.glsl */; };
+		2C628C251FAC0BAD00B53212 /* SketchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B871FAC0BAD00B53212 /* SketchFilter.h */; };
+		2C628C261FAC0BAD00B53212 /* SketchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B881FAC0BAD00B53212 /* SketchFilter.m */; };
+		2C628C271FAC0BAD00B53212 /* sketchFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B891FAC0BAD00B53212 /* sketchFragmentShader.glsl */; };
+		2C628C281FAC0BAD00B53212 /* sketchVertextShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B8A1FAC0BAD00B53212 /* sketchVertextShader.glsl */; };
+		2C628C291FAC0BAD00B53212 /* vignettemap_new.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B8B1FAC0BAD00B53212 /* vignettemap_new.bmp */; };
+		2C628C2A1FAC0BAD00B53212 /* warm_layer1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B8C1FAC0BAD00B53212 /* warm_layer1.bmp */; };
+		2C628C2B1FAC0BAD00B53212 /* WarmFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B8D1FAC0BAD00B53212 /* WarmFilter.h */; };
+		2C628C2C1FAC0BAD00B53212 /* WarmFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B8E1FAC0BAD00B53212 /* WarmFilter.m */; };
+		2C628C2D1FAC0BAD00B53212 /* warmFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B8F1FAC0BAD00B53212 /* warmFragmentShader.glsl */; };
+		2C628C2E1FAC0BAD00B53212 /* warmVertextShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B901FAC0BAD00B53212 /* warmVertextShader.glsl */; };
+		2C628C2F1FAC0BAD00B53212 /* WhitecatFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B911FAC0BAD00B53212 /* WhitecatFilter.h */; };
+		2C628C301FAC0BAD00B53212 /* WhitecatFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B921FAC0BAD00B53212 /* WhitecatFilter.m */; };
+		2C628C311FAC0BAD00B53212 /* whitecatFragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B931FAC0BAD00B53212 /* whitecatFragmentShader.glsl */; };
+		2C628C321FAC0BAD00B53212 /* whitecatVertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2C628B941FAC0BAD00B53212 /* whitecatVertexShader.glsl */; };
+		2C628C331FAC0BAD00B53212 /* XMImageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B951FAC0BAD00B53212 /* XMImageHelper.h */; };
+		2C628C341FAC0BAD00B53212 /* XMImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B961FAC0BAD00B53212 /* XMImageHelper.m */; };
+		2C628C351FAC0BAD00B53212 /* APImageColorModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B981FAC0BAD00B53212 /* APImageColorModel.h */; };
+		2C628C361FAC0BAD00B53212 /* APImageColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B991FAC0BAD00B53212 /* APImageColorModel.m */; };
+		2C628C371FAC0BAD00B53212 /* APMediaLibaryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B9A1FAC0BAD00B53212 /* APMediaLibaryModel.h */; };
+		2C628C381FAC0BAD00B53212 /* APMediaLibaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B9B1FAC0BAD00B53212 /* APMediaLibaryModel.m */; };
+		2C628C391FAC0BAD00B53212 /* UIColor_XMColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B9C1FAC0BAD00B53212 /* UIColor_XMColor.h */; };
+		2C628C3A1FAC0BAD00B53212 /* UIColor_XMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B9D1FAC0BAD00B53212 /* UIColor_XMColor.m */; };
+		2C628C3B1FAC0BAD00B53212 /* UIImage_XMImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628B9E1FAC0BAD00B53212 /* UIImage_XMImage.h */; };
+		2C628C3C1FAC0BAD00B53212 /* UIImage_XMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628B9F1FAC0BAD00B53212 /* UIImage_XMImage.m */; };
+		2C628C3D1FAC0BAD00B53212 /* APFilterList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628BA11FAC0BAD00B53212 /* APFilterList.h */; };
+		2C628C3E1FAC0BAD00B53212 /* APFilterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628BA21FAC0BAD00B53212 /* APFilterList.m */; };
+		2C628C3F1FAC0BAD00B53212 /* APImageBlur.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C628BA31FAC0BAD00B53212 /* APImageBlur.storyboard */; };
+		2C628C401FAC0BAD00B53212 /* APImageBlurBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628BA41FAC0BAD00B53212 /* APImageBlurBoard.h */; };
+		2C628C411FAC0BAD00B53212 /* APImageBlurBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628BA51FAC0BAD00B53212 /* APImageBlurBoard.m */; };
+		2C628C421FAC0BAD00B53212 /* APImageBlurVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628BA61FAC0BAD00B53212 /* APImageBlurVC.h */; };
+		2C628C431FAC0BAD00B53212 /* APImageBlurVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628BA71FAC0BAD00B53212 /* APImageBlurVC.m */; };
+		2C628C441FAC0BAD00B53212 /* APImageFilter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C628BA81FAC0BAD00B53212 /* APImageFilter.storyboard */; };
+		2C628C451FAC0BAD00B53212 /* APImageFilterCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628BA91FAC0BAD00B53212 /* APImageFilterCell.h */; };
+		2C628C461FAC0BAD00B53212 /* APImageFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628BAA1FAC0BAD00B53212 /* APImageFilterCell.m */; };
+		2C628C471FAC0BAD00B53212 /* APImageFilterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628BAB1FAC0BAD00B53212 /* APImageFilterModel.h */; };
+		2C628C481FAC0BAD00B53212 /* APImageFilterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628BAC1FAC0BAD00B53212 /* APImageFilterModel.m */; };
+		2C628C491FAC0BAD00B53212 /* APImageFilterVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628BAD1FAC0BAD00B53212 /* APImageFilterVC.h */; };
+		2C628C4A1FAC0BAD00B53212 /* APImageFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628BAE1FAC0BAD00B53212 /* APImageFilterVC.m */; };
+		2C628C4B1FAC0BAD00B53212 /* APImageVignette.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C628BAF1FAC0BAD00B53212 /* APImageVignette.storyboard */; };
+		2C628C4C1FAC0BAD00B53212 /* APImageVignetteVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C628BB01FAC0BAD00B53212 /* APImageVignetteVC.h */; };
+		2C628C4D1FAC0BAD00B53212 /* APImageVignetteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C628BB11FAC0BAD00B53212 /* APImageVignetteVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C628B001FAC0B6C00B53212 /* XImageEdit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XImageEdit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C628B031FAC0B6C00B53212 /* XImageEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XImageEdit.h; sourceTree = "<group>"; };
+		2C628B041FAC0B6C00B53212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C628B0C1FAC0B8B00B53212 /* APImageEdit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APImageEdit.storyboard; sourceTree = "<group>"; };
+		2C628B0D1FAC0B8B00B53212 /* APImageEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageEditVC.h; sourceTree = "<group>"; };
+		2C628B0E1FAC0B8B00B53212 /* APImageEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageEditVC.m; sourceTree = "<group>"; };
+		2C628B101FAC0B8B00B53212 /* APImageEnhance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APImageEnhance.storyboard; sourceTree = "<group>"; };
+		2C628B111FAC0B8B00B53212 /* APImageEnhanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageEnhanceVC.h; sourceTree = "<group>"; };
+		2C628B121FAC0B8B00B53212 /* APImageEnhanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageEnhanceVC.m; sourceTree = "<group>"; };
+		2C628B141FAC0B9000B53212 /* APDrawManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDrawManager.h; sourceTree = "<group>"; };
+		2C628B151FAC0B9000B53212 /* APDrawManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDrawManager.m; sourceTree = "<group>"; };
+		2C628B161FAC0B9000B53212 /* APDrawModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDrawModel.h; sourceTree = "<group>"; };
+		2C628B171FAC0B9000B53212 /* APDrawModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDrawModel.m; sourceTree = "<group>"; };
+		2C628B181FAC0B9000B53212 /* APDrawPathModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDrawPathModel.h; sourceTree = "<group>"; };
+		2C628B191FAC0B9000B53212 /* APDrawPathModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDrawPathModel.m; sourceTree = "<group>"; };
+		2C628B1A1FAC0B9000B53212 /* APGestureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APGestureView.h; sourceTree = "<group>"; };
+		2C628B1B1FAC0B9000B53212 /* APGestureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APGestureView.m; sourceTree = "<group>"; };
+		2C628B1C1FAC0B9000B53212 /* APImageDrawboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageDrawboard.h; sourceTree = "<group>"; };
+		2C628B1D1FAC0B9000B53212 /* APImageDrawboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageDrawboard.m; sourceTree = "<group>"; };
+		2C628B1E1FAC0B9000B53212 /* APImageDrawboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APImageDrawboard.storyboard; sourceTree = "<group>"; };
+		2C628B1F1FAC0B9000B53212 /* APImageDrawboardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageDrawboardVC.h; sourceTree = "<group>"; };
+		2C628B201FAC0B9000B53212 /* APImageDrawboardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageDrawboardVC.m; sourceTree = "<group>"; };
+		2C628B211FAC0B9000B53212 /* APImageDrawColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageDrawColorCell.h; sourceTree = "<group>"; };
+		2C628B221FAC0B9000B53212 /* APImageDrawColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageDrawColorCell.m; sourceTree = "<group>"; };
+		2C628B231FAC0B9000B53212 /* APShowDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APShowDrawView.h; sourceTree = "<group>"; };
+		2C628B241FAC0B9000B53212 /* APShowDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APShowDrawView.m; sourceTree = "<group>"; };
+		2C628B261FAC0B9600B53212 /* APCalibrationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCalibrationView.h; sourceTree = "<group>"; };
+		2C628B271FAC0B9600B53212 /* APCalibrationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCalibrationView.m; sourceTree = "<group>"; };
+		2C628B281FAC0B9600B53212 /* APCutFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCutFrameView.h; sourceTree = "<group>"; };
+		2C628B291FAC0B9600B53212 /* APCutFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCutFrameView.m; sourceTree = "<group>"; };
+		2C628B2A1FAC0B9600B53212 /* APCutMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCutMaskView.h; sourceTree = "<group>"; };
+		2C628B2B1FAC0B9600B53212 /* APCutMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCutMaskView.m; sourceTree = "<group>"; };
+		2C628B2C1FAC0B9600B53212 /* APCutSelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCutSelView.h; sourceTree = "<group>"; };
+		2C628B2D1FAC0B9600B53212 /* APCutSelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCutSelView.m; sourceTree = "<group>"; };
+		2C628B2E1FAC0B9600B53212 /* APImageCut.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APImageCut.storyboard; sourceTree = "<group>"; };
+		2C628B2F1FAC0B9600B53212 /* APImageCutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageCutCell.h; sourceTree = "<group>"; };
+		2C628B301FAC0B9600B53212 /* APImageCutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageCutCell.m; sourceTree = "<group>"; };
+		2C628B311FAC0B9600B53212 /* APImageCutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageCutModel.h; sourceTree = "<group>"; };
+		2C628B321FAC0B9600B53212 /* APImageCutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageCutModel.m; sourceTree = "<group>"; };
+		2C628B331FAC0B9600B53212 /* APImageCutScaleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageCutScaleList.h; sourceTree = "<group>"; };
+		2C628B341FAC0B9600B53212 /* APImageCutScaleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageCutScaleList.m; sourceTree = "<group>"; };
+		2C628B351FAC0B9600B53212 /* APImageCutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageCutVC.h; sourceTree = "<group>"; };
+		2C628B361FAC0B9600B53212 /* APImageCutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageCutVC.m; sourceTree = "<group>"; };
+		2C628B371FAC0B9600B53212 /* XMTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMTool.h; sourceTree = "<group>"; };
+		2C628B381FAC0B9600B53212 /* XMTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMTool.m; sourceTree = "<group>"; };
+		2C628B3A1FAC0BAC00B53212 /* APImageLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageLabel.h; sourceTree = "<group>"; };
+		2C628B3B1FAC0BAC00B53212 /* APImageLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageLabel.m; sourceTree = "<group>"; };
+		2C628B3C1FAC0BAC00B53212 /* APImageLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APImageLabel.xib; sourceTree = "<group>"; };
+		2C628B3D1FAC0BAC00B53212 /* APImageText.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APImageText.storyboard; sourceTree = "<group>"; };
+		2C628B3E1FAC0BAC00B53212 /* APImageTextColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageTextColorCell.h; sourceTree = "<group>"; };
+		2C628B3F1FAC0BAC00B53212 /* APImageTextColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageTextColorCell.m; sourceTree = "<group>"; };
+		2C628B401FAC0BAC00B53212 /* APImageTextFontCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageTextFontCell.h; sourceTree = "<group>"; };
+		2C628B411FAC0BAC00B53212 /* APImageTextFontCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageTextFontCell.m; sourceTree = "<group>"; };
+		2C628B421FAC0BAC00B53212 /* APImageTextFontModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageTextFontModel.h; sourceTree = "<group>"; };
+		2C628B431FAC0BAC00B53212 /* APImageTextFontModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageTextFontModel.m; sourceTree = "<group>"; };
+		2C628B441FAC0BAC00B53212 /* APImageTextInputVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageTextInputVC.h; sourceTree = "<group>"; };
+		2C628B451FAC0BAC00B53212 /* APImageTextInputVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageTextInputVC.m; sourceTree = "<group>"; };
+		2C628B461FAC0BAC00B53212 /* APImageTextList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageTextList.h; sourceTree = "<group>"; };
+		2C628B471FAC0BAC00B53212 /* APImageTextList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageTextList.m; sourceTree = "<group>"; };
+		2C628B481FAC0BAC00B53212 /* APImageTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageTextModel.h; sourceTree = "<group>"; };
+		2C628B491FAC0BAC00B53212 /* APImageTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageTextModel.m; sourceTree = "<group>"; };
+		2C628B4A1FAC0BAC00B53212 /* APImageTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageTextVC.h; sourceTree = "<group>"; };
+		2C628B4B1FAC0BAC00B53212 /* APImageTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageTextVC.m; sourceTree = "<group>"; };
+		2C628B4C1FAC0BAC00B53212 /* 优雅连笔字体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "优雅连笔字体.ttf"; sourceTree = "<group>"; };
+		2C628B4D1FAC0BAC00B53212 /* 咪咪体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "咪咪体.ttf"; sourceTree = "<group>"; };
+		2C628B4E1FAC0BAC00B53212 /* 左左梦巷.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "左左梦巷.ttf"; sourceTree = "<group>"; };
+		2C628B4F1FAC0BAC00B53212 /* 慌梦.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "慌梦.ttf"; sourceTree = "<group>"; };
+		2C628B501FAC0BAC00B53212 /* 方圆硬笔行书简.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "方圆硬笔行书简.ttf"; sourceTree = "<group>"; };
+		2C628B511FAC0BAC00B53212 /* 玉米诗情体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "玉米诗情体.ttf"; sourceTree = "<group>"; };
+		2C628B521FAC0BAC00B53212 /* 萌妹子字体(6000字).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "萌妹子字体(6000字).ttf"; sourceTree = "<group>"; };
+		2C628B541FAC0BAD00B53212 /* APImageColorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageColorList.h; sourceTree = "<group>"; };
+		2C628B551FAC0BAD00B53212 /* APImageColorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageColorList.m; sourceTree = "<group>"; };
+		2C628B561FAC0BAD00B53212 /* APMediaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMediaManager.h; sourceTree = "<group>"; };
+		2C628B571FAC0BAD00B53212 /* APMediaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMediaManager.m; sourceTree = "<group>"; };
+		2C628B591FAC0BAD00B53212 /* APMiddleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMiddleSlider.h; sourceTree = "<group>"; };
+		2C628B5A1FAC0BAD00B53212 /* APMiddleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMiddleSlider.m; sourceTree = "<group>"; };
+		2C628B5C1FAC0BAD00B53212 /* APProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APProgressView.h; sourceTree = "<group>"; };
+		2C628B5D1FAC0BAD00B53212 /* APProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APProgressView.m; sourceTree = "<group>"; };
+		2C628B5E1FAC0BAD00B53212 /* APProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APProgressView.xib; sourceTree = "<group>"; };
+		2C628B5F1FAC0BAD00B53212 /* SGInfoAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGInfoAlert.h; sourceTree = "<group>"; };
+		2C628B601FAC0BAD00B53212 /* SGInfoAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGInfoAlert.m; sourceTree = "<group>"; };
+		2C628B611FAC0BAD00B53212 /* XMDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMDrawView.h; sourceTree = "<group>"; };
+		2C628B621FAC0BAD00B53212 /* XMDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMDrawView.m; sourceTree = "<group>"; };
+		2C628B641FAC0BAD00B53212 /* BeautyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyFilter.h; sourceTree = "<group>"; };
+		2C628B651FAC0BAD00B53212 /* BeautyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyFilter.m; sourceTree = "<group>"; };
+		2C628B661FAC0BAD00B53212 /* beautyFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = beautyFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B671FAC0BAD00B53212 /* beautyVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = beautyVertexShader.glsl; sourceTree = "<group>"; };
+		2C628B681FAC0BAD00B53212 /* bluevintage_mask1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = bluevintage_mask1.bmp; sourceTree = "<group>"; };
+		2C628B691FAC0BAD00B53212 /* CoolFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolFilter.h; sourceTree = "<group>"; };
+		2C628B6A1FAC0BAD00B53212 /* CoolFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolFilter.m; sourceTree = "<group>"; };
+		2C628B6B1FAC0BAD00B53212 /* coolFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = coolFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B6C1FAC0BAD00B53212 /* coolVertextShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = coolVertextShader.glsl; sourceTree = "<group>"; };
+		2C628B6D1FAC0BAD00B53212 /* CrayonFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrayonFilter.h; sourceTree = "<group>"; };
+		2C628B6E1FAC0BAD00B53212 /* CrayonFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrayonFilter.m; sourceTree = "<group>"; };
+		2C628B6F1FAC0BAD00B53212 /* crayonFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crayonFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B701FAC0BAD00B53212 /* crayonVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crayonVertexShader.glsl; sourceTree = "<group>"; };
+		2C628B711FAC0BAD00B53212 /* earlybirdblowout.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = earlybirdblowout.bmp; sourceTree = "<group>"; };
+		2C628B721FAC0BAD00B53212 /* earlybirdcurves.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = earlybirdcurves.bmp; sourceTree = "<group>"; };
+		2C628B731FAC0BAD00B53212 /* EarlyBirdFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarlyBirdFilter.h; sourceTree = "<group>"; };
+		2C628B741FAC0BAD00B53212 /* EarlyBirdFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarlyBirdFilter.m; sourceTree = "<group>"; };
+		2C628B751FAC0BAD00B53212 /* earlyBirdFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = earlyBirdFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B761FAC0BAD00B53212 /* earlybirdmap.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = earlybirdmap.bmp; sourceTree = "<group>"; };
+		2C628B771FAC0BAD00B53212 /* earlybirdoverlaymap_new.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = earlybirdoverlaymap_new.bmp; sourceTree = "<group>"; };
+		2C628B781FAC0BAD00B53212 /* earlyBirdVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = earlyBirdVertexShader.glsl; sourceTree = "<group>"; };
+		2C628B791FAC0BAD00B53212 /* fairy_tale.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = fairy_tale.bmp; sourceTree = "<group>"; };
+		2C628B7A1FAC0BAD00B53212 /* FairytaleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FairytaleFilter.h; sourceTree = "<group>"; };
+		2C628B7B1FAC0BAD00B53212 /* FairytaleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FairytaleFilter.m; sourceTree = "<group>"; };
+		2C628B7C1FAC0BAD00B53212 /* fairytaleFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fairytaleFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B7D1FAC0BAD00B53212 /* fairytaleVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fairytaleVertexShader.glsl; sourceTree = "<group>"; };
+		2C628B7E1FAC0BAD00B53212 /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		2C628B7F1FAC0BAD00B53212 /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		2C628B801FAC0BAD00B53212 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		2C628B811FAC0BAD00B53212 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		2C628B821FAC0BAD00B53212 /* InkwellFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InkwellFilter.h; sourceTree = "<group>"; };
+		2C628B831FAC0BAD00B53212 /* InkwellFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InkwellFilter.m; sourceTree = "<group>"; };
+		2C628B841FAC0BAD00B53212 /* inkwellFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inkwellFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B851FAC0BAD00B53212 /* inkwellmap.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = inkwellmap.bmp; sourceTree = "<group>"; };
+		2C628B861FAC0BAD00B53212 /* inkwellVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = inkwellVertexShader.glsl; sourceTree = "<group>"; };
+		2C628B871FAC0BAD00B53212 /* SketchFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SketchFilter.h; sourceTree = "<group>"; };
+		2C628B881FAC0BAD00B53212 /* SketchFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SketchFilter.m; sourceTree = "<group>"; };
+		2C628B891FAC0BAD00B53212 /* sketchFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sketchFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B8A1FAC0BAD00B53212 /* sketchVertextShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sketchVertextShader.glsl; sourceTree = "<group>"; };
+		2C628B8B1FAC0BAD00B53212 /* vignettemap_new.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = vignettemap_new.bmp; sourceTree = "<group>"; };
+		2C628B8C1FAC0BAD00B53212 /* warm_layer1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = warm_layer1.bmp; sourceTree = "<group>"; };
+		2C628B8D1FAC0BAD00B53212 /* WarmFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmFilter.h; sourceTree = "<group>"; };
+		2C628B8E1FAC0BAD00B53212 /* WarmFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmFilter.m; sourceTree = "<group>"; };
+		2C628B8F1FAC0BAD00B53212 /* warmFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = warmFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B901FAC0BAD00B53212 /* warmVertextShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = warmVertextShader.glsl; sourceTree = "<group>"; };
+		2C628B911FAC0BAD00B53212 /* WhitecatFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhitecatFilter.h; sourceTree = "<group>"; };
+		2C628B921FAC0BAD00B53212 /* WhitecatFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhitecatFilter.m; sourceTree = "<group>"; };
+		2C628B931FAC0BAD00B53212 /* whitecatFragmentShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = whitecatFragmentShader.glsl; sourceTree = "<group>"; };
+		2C628B941FAC0BAD00B53212 /* whitecatVertexShader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = whitecatVertexShader.glsl; sourceTree = "<group>"; };
+		2C628B951FAC0BAD00B53212 /* XMImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMImageHelper.h; sourceTree = "<group>"; };
+		2C628B961FAC0BAD00B53212 /* XMImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMImageHelper.m; sourceTree = "<group>"; };
+		2C628B981FAC0BAD00B53212 /* APImageColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageColorModel.h; sourceTree = "<group>"; };
+		2C628B991FAC0BAD00B53212 /* APImageColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageColorModel.m; sourceTree = "<group>"; };
+		2C628B9A1FAC0BAD00B53212 /* APMediaLibaryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMediaLibaryModel.h; sourceTree = "<group>"; };
+		2C628B9B1FAC0BAD00B53212 /* APMediaLibaryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMediaLibaryModel.m; sourceTree = "<group>"; };
+		2C628B9C1FAC0BAD00B53212 /* UIColor_XMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor_XMColor.h; sourceTree = "<group>"; };
+		2C628B9D1FAC0BAD00B53212 /* UIColor_XMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor_XMColor.m; sourceTree = "<group>"; };
+		2C628B9E1FAC0BAD00B53212 /* UIImage_XMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImage_XMImage.h; sourceTree = "<group>"; };
+		2C628B9F1FAC0BAD00B53212 /* UIImage_XMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImage_XMImage.m; sourceTree = "<group>"; };
+		2C628BA11FAC0BAD00B53212 /* APFilterList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFilterList.h; sourceTree = "<group>"; };
+		2C628BA21FAC0BAD00B53212 /* APFilterList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFilterList.m; sourceTree = "<group>"; };
+		2C628BA31FAC0BAD00B53212 /* APImageBlur.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APImageBlur.storyboard; sourceTree = "<group>"; };
+		2C628BA41FAC0BAD00B53212 /* APImageBlurBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageBlurBoard.h; sourceTree = "<group>"; };
+		2C628BA51FAC0BAD00B53212 /* APImageBlurBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageBlurBoard.m; sourceTree = "<group>"; };
+		2C628BA61FAC0BAD00B53212 /* APImageBlurVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageBlurVC.h; sourceTree = "<group>"; };
+		2C628BA71FAC0BAD00B53212 /* APImageBlurVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageBlurVC.m; sourceTree = "<group>"; };
+		2C628BA81FAC0BAD00B53212 /* APImageFilter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APImageFilter.storyboard; sourceTree = "<group>"; };
+		2C628BA91FAC0BAD00B53212 /* APImageFilterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageFilterCell.h; sourceTree = "<group>"; };
+		2C628BAA1FAC0BAD00B53212 /* APImageFilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageFilterCell.m; sourceTree = "<group>"; };
+		2C628BAB1FAC0BAD00B53212 /* APImageFilterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageFilterModel.h; sourceTree = "<group>"; };
+		2C628BAC1FAC0BAD00B53212 /* APImageFilterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageFilterModel.m; sourceTree = "<group>"; };
+		2C628BAD1FAC0BAD00B53212 /* APImageFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageFilterVC.h; sourceTree = "<group>"; };
+		2C628BAE1FAC0BAD00B53212 /* APImageFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageFilterVC.m; sourceTree = "<group>"; };
+		2C628BAF1FAC0BAD00B53212 /* APImageVignette.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = APImageVignette.storyboard; sourceTree = "<group>"; };
+		2C628BB01FAC0BAD00B53212 /* APImageVignetteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageVignetteVC.h; sourceTree = "<group>"; };
+		2C628BB11FAC0BAD00B53212 /* APImageVignetteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageVignetteVC.m; sourceTree = "<group>"; };
+		700373EC6DD3FB57206A19C2 /* Pods-XImageEdit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XImageEdit.release.xcconfig"; path = "Pods/Target Support Files/Pods-XImageEdit/Pods-XImageEdit.release.xcconfig"; sourceTree = "<group>"; };
+		DA558A627EF64B12507BB9A0 /* Pods-XImageEdit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XImageEdit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XImageEdit/Pods-XImageEdit.debug.xcconfig"; sourceTree = "<group>"; };
+		E2047CF955B01AA1B12C1A96 /* libPods-XImageEdit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XImageEdit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C628AFC1FAC0B6C00B53212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CBC755FDA690C412F3A5E6 /* libPods-XImageEdit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C628AF61FAC0B6C00B53212 = {
+			isa = PBXGroup;
+			children = (
+				2C628B021FAC0B6C00B53212 /* XImageEdit */,
+				2C628B011FAC0B6C00B53212 /* Products */,
+				DA81D5153FBE9970D29C5396 /* Pods */,
+				96993590FE7703504B75DA4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C628B011FAC0B6C00B53212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B001FAC0B6C00B53212 /* XImageEdit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C628B021FAC0B6C00B53212 /* XImageEdit */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B531FAC0BAD00B53212 /* Commom */,
+				2C628B251FAC0B9600B53212 /* Cut */,
+				2C628B131FAC0B9000B53212 /* Draw */,
+				2C628B0B1FAC0B8B00B53212 /* EditMain */,
+				2C628B0F1FAC0B8B00B53212 /* Enhance */,
+				2C628BA01FAC0BAD00B53212 /* Filter */,
+				2C628B391FAC0BAC00B53212 /* Text */,
+				2C628B031FAC0B6C00B53212 /* XImageEdit.h */,
+				2C628B041FAC0B6C00B53212 /* Info.plist */,
+			);
+			path = XImageEdit;
+			sourceTree = "<group>";
+		};
+		2C628B0B1FAC0B8B00B53212 /* EditMain */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B0C1FAC0B8B00B53212 /* APImageEdit.storyboard */,
+				2C628B0D1FAC0B8B00B53212 /* APImageEditVC.h */,
+				2C628B0E1FAC0B8B00B53212 /* APImageEditVC.m */,
+			);
+			path = EditMain;
+			sourceTree = "<group>";
+		};
+		2C628B0F1FAC0B8B00B53212 /* Enhance */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B101FAC0B8B00B53212 /* APImageEnhance.storyboard */,
+				2C628B111FAC0B8B00B53212 /* APImageEnhanceVC.h */,
+				2C628B121FAC0B8B00B53212 /* APImageEnhanceVC.m */,
+			);
+			path = Enhance;
+			sourceTree = "<group>";
+		};
+		2C628B131FAC0B9000B53212 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B141FAC0B9000B53212 /* APDrawManager.h */,
+				2C628B151FAC0B9000B53212 /* APDrawManager.m */,
+				2C628B161FAC0B9000B53212 /* APDrawModel.h */,
+				2C628B171FAC0B9000B53212 /* APDrawModel.m */,
+				2C628B181FAC0B9000B53212 /* APDrawPathModel.h */,
+				2C628B191FAC0B9000B53212 /* APDrawPathModel.m */,
+				2C628B1A1FAC0B9000B53212 /* APGestureView.h */,
+				2C628B1B1FAC0B9000B53212 /* APGestureView.m */,
+				2C628B1C1FAC0B9000B53212 /* APImageDrawboard.h */,
+				2C628B1D1FAC0B9000B53212 /* APImageDrawboard.m */,
+				2C628B1E1FAC0B9000B53212 /* APImageDrawboard.storyboard */,
+				2C628B1F1FAC0B9000B53212 /* APImageDrawboardVC.h */,
+				2C628B201FAC0B9000B53212 /* APImageDrawboardVC.m */,
+				2C628B211FAC0B9000B53212 /* APImageDrawColorCell.h */,
+				2C628B221FAC0B9000B53212 /* APImageDrawColorCell.m */,
+				2C628B231FAC0B9000B53212 /* APShowDrawView.h */,
+				2C628B241FAC0B9000B53212 /* APShowDrawView.m */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		2C628B251FAC0B9600B53212 /* Cut */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B261FAC0B9600B53212 /* APCalibrationView.h */,
+				2C628B271FAC0B9600B53212 /* APCalibrationView.m */,
+				2C628B281FAC0B9600B53212 /* APCutFrameView.h */,
+				2C628B291FAC0B9600B53212 /* APCutFrameView.m */,
+				2C628B2A1FAC0B9600B53212 /* APCutMaskView.h */,
+				2C628B2B1FAC0B9600B53212 /* APCutMaskView.m */,
+				2C628B2C1FAC0B9600B53212 /* APCutSelView.h */,
+				2C628B2D1FAC0B9600B53212 /* APCutSelView.m */,
+				2C628B2E1FAC0B9600B53212 /* APImageCut.storyboard */,
+				2C628B2F1FAC0B9600B53212 /* APImageCutCell.h */,
+				2C628B301FAC0B9600B53212 /* APImageCutCell.m */,
+				2C628B311FAC0B9600B53212 /* APImageCutModel.h */,
+				2C628B321FAC0B9600B53212 /* APImageCutModel.m */,
+				2C628B331FAC0B9600B53212 /* APImageCutScaleList.h */,
+				2C628B341FAC0B9600B53212 /* APImageCutScaleList.m */,
+				2C628B351FAC0B9600B53212 /* APImageCutVC.h */,
+				2C628B361FAC0B9600B53212 /* APImageCutVC.m */,
+				2C628B371FAC0B9600B53212 /* XMTool.h */,
+				2C628B381FAC0B9600B53212 /* XMTool.m */,
+			);
+			path = Cut;
+			sourceTree = "<group>";
+		};
+		2C628B391FAC0BAC00B53212 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B3A1FAC0BAC00B53212 /* APImageLabel.h */,
+				2C628B3B1FAC0BAC00B53212 /* APImageLabel.m */,
+				2C628B3C1FAC0BAC00B53212 /* APImageLabel.xib */,
+				2C628B3D1FAC0BAC00B53212 /* APImageText.storyboard */,
+				2C628B3E1FAC0BAC00B53212 /* APImageTextColorCell.h */,
+				2C628B3F1FAC0BAC00B53212 /* APImageTextColorCell.m */,
+				2C628B401FAC0BAC00B53212 /* APImageTextFontCell.h */,
+				2C628B411FAC0BAC00B53212 /* APImageTextFontCell.m */,
+				2C628B421FAC0BAC00B53212 /* APImageTextFontModel.h */,
+				2C628B431FAC0BAC00B53212 /* APImageTextFontModel.m */,
+				2C628B441FAC0BAC00B53212 /* APImageTextInputVC.h */,
+				2C628B451FAC0BAC00B53212 /* APImageTextInputVC.m */,
+				2C628B461FAC0BAC00B53212 /* APImageTextList.h */,
+				2C628B471FAC0BAC00B53212 /* APImageTextList.m */,
+				2C628B481FAC0BAC00B53212 /* APImageTextModel.h */,
+				2C628B491FAC0BAC00B53212 /* APImageTextModel.m */,
+				2C628B4A1FAC0BAC00B53212 /* APImageTextVC.h */,
+				2C628B4B1FAC0BAC00B53212 /* APImageTextVC.m */,
+				2C628B4C1FAC0BAC00B53212 /* 优雅连笔字体.ttf */,
+				2C628B4D1FAC0BAC00B53212 /* 咪咪体.ttf */,
+				2C628B4E1FAC0BAC00B53212 /* 左左梦巷.ttf */,
+				2C628B4F1FAC0BAC00B53212 /* 慌梦.ttf */,
+				2C628B501FAC0BAC00B53212 /* 方圆硬笔行书简.ttf */,
+				2C628B511FAC0BAC00B53212 /* 玉米诗情体.ttf */,
+				2C628B521FAC0BAC00B53212 /* 萌妹子字体(6000字).ttf */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		2C628B531FAC0BAD00B53212 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B541FAC0BAD00B53212 /* APImageColorList.h */,
+				2C628B551FAC0BAD00B53212 /* APImageColorList.m */,
+				2C628B561FAC0BAD00B53212 /* APMediaManager.h */,
+				2C628B571FAC0BAD00B53212 /* APMediaManager.m */,
+				2C628B581FAC0BAD00B53212 /* CustomView */,
+				2C628B631FAC0BAD00B53212 /* Filter */,
+				2C628B971FAC0BAD00B53212 /* Model */,
+				2C628B9C1FAC0BAD00B53212 /* UIColor_XMColor.h */,
+				2C628B9D1FAC0BAD00B53212 /* UIColor_XMColor.m */,
+				2C628B9E1FAC0BAD00B53212 /* UIImage_XMImage.h */,
+				2C628B9F1FAC0BAD00B53212 /* UIImage_XMImage.m */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		2C628B581FAC0BAD00B53212 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B591FAC0BAD00B53212 /* APMiddleSlider.h */,
+				2C628B5A1FAC0BAD00B53212 /* APMiddleSlider.m */,
+				2C628B5B1FAC0BAD00B53212 /* Progresss */,
+				2C628B5F1FAC0BAD00B53212 /* SGInfoAlert.h */,
+				2C628B601FAC0BAD00B53212 /* SGInfoAlert.m */,
+				2C628B611FAC0BAD00B53212 /* XMDrawView.h */,
+				2C628B621FAC0BAD00B53212 /* XMDrawView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		2C628B5B1FAC0BAD00B53212 /* Progresss */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B5C1FAC0BAD00B53212 /* APProgressView.h */,
+				2C628B5D1FAC0BAD00B53212 /* APProgressView.m */,
+				2C628B5E1FAC0BAD00B53212 /* APProgressView.xib */,
+			);
+			path = Progresss;
+			sourceTree = "<group>";
+		};
+		2C628B631FAC0BAD00B53212 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B641FAC0BAD00B53212 /* BeautyFilter.h */,
+				2C628B651FAC0BAD00B53212 /* BeautyFilter.m */,
+				2C628B661FAC0BAD00B53212 /* beautyFragmentShader.glsl */,
+				2C628B671FAC0BAD00B53212 /* beautyVertexShader.glsl */,
+				2C628B681FAC0BAD00B53212 /* bluevintage_mask1.bmp */,
+				2C628B691FAC0BAD00B53212 /* CoolFilter.h */,
+				2C628B6A1FAC0BAD00B53212 /* CoolFilter.m */,
+				2C628B6B1FAC0BAD00B53212 /* coolFragmentShader.glsl */,
+				2C628B6C1FAC0BAD00B53212 /* coolVertextShader.glsl */,
+				2C628B6D1FAC0BAD00B53212 /* CrayonFilter.h */,
+				2C628B6E1FAC0BAD00B53212 /* CrayonFilter.m */,
+				2C628B6F1FAC0BAD00B53212 /* crayonFragmentShader.glsl */,
+				2C628B701FAC0BAD00B53212 /* crayonVertexShader.glsl */,
+				2C628B711FAC0BAD00B53212 /* earlybirdblowout.bmp */,
+				2C628B721FAC0BAD00B53212 /* earlybirdcurves.bmp */,
+				2C628B731FAC0BAD00B53212 /* EarlyBirdFilter.h */,
+				2C628B741FAC0BAD00B53212 /* EarlyBirdFilter.m */,
+				2C628B751FAC0BAD00B53212 /* earlyBirdFragmentShader.glsl */,
+				2C628B761FAC0BAD00B53212 /* earlybirdmap.bmp */,
+				2C628B771FAC0BAD00B53212 /* earlybirdoverlaymap_new.bmp */,
+				2C628B781FAC0BAD00B53212 /* earlyBirdVertexShader.glsl */,
+				2C628B791FAC0BAD00B53212 /* fairy_tale.bmp */,
+				2C628B7A1FAC0BAD00B53212 /* FairytaleFilter.h */,
+				2C628B7B1FAC0BAD00B53212 /* FairytaleFilter.m */,
+				2C628B7C1FAC0BAD00B53212 /* fairytaleFragmentShader.glsl */,
+				2C628B7D1FAC0BAD00B53212 /* fairytaleVertexShader.glsl */,
+				2C628B7E1FAC0BAD00B53212 /* GLESMath.c */,
+				2C628B7F1FAC0BAD00B53212 /* GLESMath.h */,
+				2C628B801FAC0BAD00B53212 /* GLESUtils.h */,
+				2C628B811FAC0BAD00B53212 /* GLESUtils.m */,
+				2C628B821FAC0BAD00B53212 /* InkwellFilter.h */,
+				2C628B831FAC0BAD00B53212 /* InkwellFilter.m */,
+				2C628B841FAC0BAD00B53212 /* inkwellFragmentShader.glsl */,
+				2C628B851FAC0BAD00B53212 /* inkwellmap.bmp */,
+				2C628B861FAC0BAD00B53212 /* inkwellVertexShader.glsl */,
+				2C628B871FAC0BAD00B53212 /* SketchFilter.h */,
+				2C628B881FAC0BAD00B53212 /* SketchFilter.m */,
+				2C628B891FAC0BAD00B53212 /* sketchFragmentShader.glsl */,
+				2C628B8A1FAC0BAD00B53212 /* sketchVertextShader.glsl */,
+				2C628B8B1FAC0BAD00B53212 /* vignettemap_new.bmp */,
+				2C628B8C1FAC0BAD00B53212 /* warm_layer1.bmp */,
+				2C628B8D1FAC0BAD00B53212 /* WarmFilter.h */,
+				2C628B8E1FAC0BAD00B53212 /* WarmFilter.m */,
+				2C628B8F1FAC0BAD00B53212 /* warmFragmentShader.glsl */,
+				2C628B901FAC0BAD00B53212 /* warmVertextShader.glsl */,
+				2C628B911FAC0BAD00B53212 /* WhitecatFilter.h */,
+				2C628B921FAC0BAD00B53212 /* WhitecatFilter.m */,
+				2C628B931FAC0BAD00B53212 /* whitecatFragmentShader.glsl */,
+				2C628B941FAC0BAD00B53212 /* whitecatVertexShader.glsl */,
+				2C628B951FAC0BAD00B53212 /* XMImageHelper.h */,
+				2C628B961FAC0BAD00B53212 /* XMImageHelper.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		2C628B971FAC0BAD00B53212 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C628B981FAC0BAD00B53212 /* APImageColorModel.h */,
+				2C628B991FAC0BAD00B53212 /* APImageColorModel.m */,
+				2C628B9A1FAC0BAD00B53212 /* APMediaLibaryModel.h */,
+				2C628B9B1FAC0BAD00B53212 /* APMediaLibaryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C628BA01FAC0BAD00B53212 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				2C628BA11FAC0BAD00B53212 /* APFilterList.h */,
+				2C628BA21FAC0BAD00B53212 /* APFilterList.m */,
+				2C628BA31FAC0BAD00B53212 /* APImageBlur.storyboard */,
+				2C628BA41FAC0BAD00B53212 /* APImageBlurBoard.h */,
+				2C628BA51FAC0BAD00B53212 /* APImageBlurBoard.m */,
+				2C628BA61FAC0BAD00B53212 /* APImageBlurVC.h */,
+				2C628BA71FAC0BAD00B53212 /* APImageBlurVC.m */,
+				2C628BA81FAC0BAD00B53212 /* APImageFilter.storyboard */,
+				2C628BA91FAC0BAD00B53212 /* APImageFilterCell.h */,
+				2C628BAA1FAC0BAD00B53212 /* APImageFilterCell.m */,
+				2C628BAB1FAC0BAD00B53212 /* APImageFilterModel.h */,
+				2C628BAC1FAC0BAD00B53212 /* APImageFilterModel.m */,
+				2C628BAD1FAC0BAD00B53212 /* APImageFilterVC.h */,
+				2C628BAE1FAC0BAD00B53212 /* APImageFilterVC.m */,
+				2C628BAF1FAC0BAD00B53212 /* APImageVignette.storyboard */,
+				2C628BB01FAC0BAD00B53212 /* APImageVignetteVC.h */,
+				2C628BB11FAC0BAD00B53212 /* APImageVignetteVC.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		96993590FE7703504B75DA4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2047CF955B01AA1B12C1A96 /* libPods-XImageEdit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA81D5153FBE9970D29C5396 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA558A627EF64B12507BB9A0 /* Pods-XImageEdit.debug.xcconfig */,
+				700373EC6DD3FB57206A19C2 /* Pods-XImageEdit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C628AFD1FAC0B6C00B53212 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C628BE01FAC0BAD00B53212 /* APImageTextColorCell.h in Headers */,
+				2C628BCB1FAC0BAD00B53212 /* APCutFrameView.h in Headers */,
+				2C628BDA1FAC0BAD00B53212 /* XMTool.h in Headers */,
+				2C628C251FAC0BAD00B53212 /* SketchFilter.h in Headers */,
+				2C628BFE1FAC0BAD00B53212 /* SGInfoAlert.h in Headers */,
+				2C628BEC1FAC0BAD00B53212 /* APImageTextVC.h in Headers */,
+				2C628BD61FAC0BAD00B53212 /* APImageCutScaleList.h in Headers */,
+				2C628BB31FAC0BAD00B53212 /* APImageEditVC.h in Headers */,
+				2C628BBE1FAC0BAD00B53212 /* APGestureView.h in Headers */,
+				2C628C021FAC0BAD00B53212 /* BeautyFilter.h in Headers */,
+				2C628C2F1FAC0BAD00B53212 /* WhitecatFilter.h in Headers */,
+				2C628C3D1FAC0BAD00B53212 /* APFilterList.h in Headers */,
+				2C628BFB1FAC0BAD00B53212 /* APProgressView.h in Headers */,
+				2C628BE81FAC0BAD00B53212 /* APImageTextList.h in Headers */,
+				2C628BF91FAC0BAD00B53212 /* APMiddleSlider.h in Headers */,
+				2C628BF71FAC0BAD00B53212 /* APMediaManager.h in Headers */,
+				2C628C1E1FAC0BAD00B53212 /* GLESUtils.h in Headers */,
+				2C628C111FAC0BAD00B53212 /* EarlyBirdFilter.h in Headers */,
+				2C628C071FAC0BAD00B53212 /* CoolFilter.h in Headers */,
+				2C628BCD1FAC0BAD00B53212 /* APCutMaskView.h in Headers */,
+				2C628C4C1FAC0BAD00B53212 /* APImageVignetteVC.h in Headers */,
+				2C628C421FAC0BAD00B53212 /* APImageBlurVC.h in Headers */,
+				2C628BCF1FAC0BAD00B53212 /* APCutSelView.h in Headers */,
+				2C628C401FAC0BAD00B53212 /* APImageBlurBoard.h in Headers */,
+				2C628C001FAC0BAD00B53212 /* XMDrawView.h in Headers */,
+				2C628BC01FAC0BAD00B53212 /* APImageDrawboard.h in Headers */,
+				2C628BD21FAC0BAD00B53212 /* APImageCutCell.h in Headers */,
+				2C628C331FAC0BAD00B53212 /* XMImageHelper.h in Headers */,
+				2C628C201FAC0BAD00B53212 /* InkwellFilter.h in Headers */,
+				2C628BC51FAC0BAD00B53212 /* APImageDrawColorCell.h in Headers */,
+				2C628BD81FAC0BAD00B53212 /* APImageCutVC.h in Headers */,
+				2C628C3B1FAC0BAD00B53212 /* UIImage_XMImage.h in Headers */,
+				2C628BB61FAC0BAD00B53212 /* APImageEnhanceVC.h in Headers */,
+				2C628BE41FAC0BAD00B53212 /* APImageTextFontModel.h in Headers */,
+				2C628C2B1FAC0BAD00B53212 /* WarmFilter.h in Headers */,
+				2C628C491FAC0BAD00B53212 /* APImageFilterVC.h in Headers */,
+				2C628BEA1FAC0BAD00B53212 /* APImageTextModel.h in Headers */,
+				2C628C371FAC0BAD00B53212 /* APMediaLibaryModel.h in Headers */,
+				2C628BF51FAC0BAD00B53212 /* APImageColorList.h in Headers */,
+				2C628C471FAC0BAD00B53212 /* APImageFilterModel.h in Headers */,
+				2C628BC91FAC0BAD00B53212 /* APCalibrationView.h in Headers */,
+				2C628BBC1FAC0BAD00B53212 /* APDrawPathModel.h in Headers */,
+				2C628BBA1FAC0BAD00B53212 /* APDrawModel.h in Headers */,
+				2C628BD41FAC0BAD00B53212 /* APImageCutModel.h in Headers */,
+				2C628C0B1FAC0BAD00B53212 /* CrayonFilter.h in Headers */,
+				2C628BDC1FAC0BAD00B53212 /* APImageLabel.h in Headers */,
+				2C628C351FAC0BAD00B53212 /* APImageColorModel.h in Headers */,
+				2C628C181FAC0BAD00B53212 /* FairytaleFilter.h in Headers */,
+				2C628B051FAC0B6C00B53212 /* XImageEdit.h in Headers */,
+				2C628BC71FAC0BAD00B53212 /* APShowDrawView.h in Headers */,
+				2C628BE21FAC0BAD00B53212 /* APImageTextFontCell.h in Headers */,
+				2C628BE61FAC0BAD00B53212 /* APImageTextInputVC.h in Headers */,
+				2C628C451FAC0BAD00B53212 /* APImageFilterCell.h in Headers */,
+				2C628C391FAC0BAD00B53212 /* UIColor_XMColor.h in Headers */,
+				2C628C1D1FAC0BAD00B53212 /* GLESMath.h in Headers */,
+				2C628BB81FAC0BAD00B53212 /* APDrawManager.h in Headers */,
+				2C628BC31FAC0BAD00B53212 /* APImageDrawboardVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C628AFF1FAC0B6C00B53212 /* XImageEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C628B081FAC0B6C00B53212 /* Build configuration list for PBXNativeTarget "XImageEdit" */;
+			buildPhases = (
+				984496E06E42451BB2F60BE2 /* [CP] Check Pods Manifest.lock */,
+				2C628AFB1FAC0B6C00B53212 /* Sources */,
+				2C628AFC1FAC0B6C00B53212 /* Frameworks */,
+				2C628AFD1FAC0B6C00B53212 /* Headers */,
+				2C628AFE1FAC0B6C00B53212 /* Resources */,
+				4700E03986DDD4190E37844E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XImageEdit;
+			productName = XImageEdit;
+			productReference = 2C628B001FAC0B6C00B53212 /* XImageEdit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C628AF71FAC0B6C00B53212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Mifit;
+				TargetAttributes = {
+					2C628AFF1FAC0B6C00B53212 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C628AFA1FAC0B6C00B53212 /* Build configuration list for PBXProject "XImageEdit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C628AF61FAC0B6C00B53212;
+			productRefGroup = 2C628B011FAC0B6C00B53212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C628AFF1FAC0B6C00B53212 /* XImageEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C628AFE1FAC0B6C00B53212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C628C0D1FAC0BAD00B53212 /* crayonFragmentShader.glsl in Resources */,
+				2C628C291FAC0BAD00B53212 /* vignettemap_new.bmp in Resources */,
+				2C628BF11FAC0BAD00B53212 /* 慌梦.ttf in Resources */,
+				2C628C321FAC0BAD00B53212 /* whitecatVertexShader.glsl in Resources */,
+				2C628C2A1FAC0BAD00B53212 /* warm_layer1.bmp in Resources */,
+				2C628BEE1FAC0BAD00B53212 /* 优雅连笔字体.ttf in Resources */,
+				2C628C2D1FAC0BAD00B53212 /* warmFragmentShader.glsl in Resources */,
+				2C628BD11FAC0BAD00B53212 /* APImageCut.storyboard in Resources */,
+				2C628C161FAC0BAD00B53212 /* earlyBirdVertexShader.glsl in Resources */,
+				2C628BEF1FAC0BAD00B53212 /* 咪咪体.ttf in Resources */,
+				2C628C131FAC0BAD00B53212 /* earlyBirdFragmentShader.glsl in Resources */,
+				2C628C1A1FAC0BAD00B53212 /* fairytaleFragmentShader.glsl in Resources */,
+				2C628C041FAC0BAD00B53212 /* beautyFragmentShader.glsl in Resources */,
+				2C628BB51FAC0BAD00B53212 /* APImageEnhance.storyboard in Resources */,
+				2C628C2E1FAC0BAD00B53212 /* warmVertextShader.glsl in Resources */,
+				2C628C441FAC0BAD00B53212 /* APImageFilter.storyboard in Resources */,
+				2C628C051FAC0BAD00B53212 /* beautyVertexShader.glsl in Resources */,
+				2C628C151FAC0BAD00B53212 /* earlybirdoverlaymap_new.bmp in Resources */,
+				2C628C091FAC0BAD00B53212 /* coolFragmentShader.glsl in Resources */,
+				2C628C0A1FAC0BAD00B53212 /* coolVertextShader.glsl in Resources */,
+				2C628C101FAC0BAD00B53212 /* earlybirdcurves.bmp in Resources */,
+				2C628C231FAC0BAD00B53212 /* inkwellmap.bmp in Resources */,
+				2C628C271FAC0BAD00B53212 /* sketchFragmentShader.glsl in Resources */,
+				2C628BDF1FAC0BAD00B53212 /* APImageText.storyboard in Resources */,
+				2C628C0F1FAC0BAD00B53212 /* earlybirdblowout.bmp in Resources */,
+				2C628BF21FAC0BAD00B53212 /* 方圆硬笔行书简.ttf in Resources */,
+				2C628BB21FAC0BAD00B53212 /* APImageEdit.storyboard in Resources */,
+				2C628C0E1FAC0BAD00B53212 /* crayonVertexShader.glsl in Resources */,
+				2C628BF31FAC0BAD00B53212 /* 玉米诗情体.ttf in Resources */,
+				2C628BF41FAC0BAD00B53212 /* 萌妹子字体(6000字).ttf in Resources */,
+				2C628C241FAC0BAD00B53212 /* inkwellVertexShader.glsl in Resources */,
+				2C628BC21FAC0BAD00B53212 /* APImageDrawboard.storyboard in Resources */,
+				2C628BDE1FAC0BAD00B53212 /* APImageLabel.xib in Resources */,
+				2C628C3F1FAC0BAD00B53212 /* APImageBlur.storyboard in Resources */,
+				2C628C171FAC0BAD00B53212 /* fairy_tale.bmp in Resources */,
+				2C628C061FAC0BAD00B53212 /* bluevintage_mask1.bmp in Resources */,
+				2C628C1B1FAC0BAD00B53212 /* fairytaleVertexShader.glsl in Resources */,
+				2C628C281FAC0BAD00B53212 /* sketchVertextShader.glsl in Resources */,
+				2C628C141FAC0BAD00B53212 /* earlybirdmap.bmp in Resources */,
+				2C628C4B1FAC0BAD00B53212 /* APImageVignette.storyboard in Resources */,
+				2C628C221FAC0BAD00B53212 /* inkwellFragmentShader.glsl in Resources */,
+				2C628BFD1FAC0BAD00B53212 /* APProgressView.xib in Resources */,
+				2C628BF01FAC0BAD00B53212 /* 左左梦巷.ttf in Resources */,
+				2C628C311FAC0BAD00B53212 /* whitecatFragmentShader.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4700E03986DDD4190E37844E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XImageEdit/Pods-XImageEdit-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XImageEdit/Pods-XImageEdit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984496E06E42451BB2F60BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XImageEdit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C628AFB1FAC0B6C00B53212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C628BD91FAC0BAD00B53212 /* APImageCutVC.m in Sources */,
+				2C628BD31FAC0BAD00B53212 /* APImageCutCell.m in Sources */,
+				2C628C301FAC0BAD00B53212 /* WhitecatFilter.m in Sources */,
+				2C628C1F1FAC0BAD00B53212 /* GLESUtils.m in Sources */,
+				2C628BBB1FAC0BAD00B53212 /* APDrawModel.m in Sources */,
+				2C628BB91FAC0BAD00B53212 /* APDrawManager.m in Sources */,
+				2C628BFA1FAC0BAD00B53212 /* APMiddleSlider.m in Sources */,
+				2C628BF61FAC0BAD00B53212 /* APImageColorList.m in Sources */,
+				2C628BFF1FAC0BAD00B53212 /* SGInfoAlert.m in Sources */,
+				2C628C121FAC0BAD00B53212 /* EarlyBirdFilter.m in Sources */,
+				2C628BC81FAC0BAD00B53212 /* APShowDrawView.m in Sources */,
+				2C628BEB1FAC0BAD00B53212 /* APImageTextModel.m in Sources */,
+				2C628C3A1FAC0BAD00B53212 /* UIColor_XMColor.m in Sources */,
+				2C628BDD1FAC0BAD00B53212 /* APImageLabel.m in Sources */,
+				2C628C461FAC0BAD00B53212 /* APImageFilterCell.m in Sources */,
+				2C628BC41FAC0BAD00B53212 /* APImageDrawboardVC.m in Sources */,
+				2C628BCE1FAC0BAD00B53212 /* APCutMaskView.m in Sources */,
+				2C628C2C1FAC0BAD00B53212 /* WarmFilter.m in Sources */,
+				2C628C341FAC0BAD00B53212 /* XMImageHelper.m in Sources */,
+				2C628BE51FAC0BAD00B53212 /* APImageTextFontModel.m in Sources */,
+				2C628BF81FAC0BAD00B53212 /* APMediaManager.m in Sources */,
+				2C628C3C1FAC0BAD00B53212 /* UIImage_XMImage.m in Sources */,
+				2C628BD71FAC0BAD00B53212 /* APImageCutScaleList.m in Sources */,
+				2C628C1C1FAC0BAD00B53212 /* GLESMath.c in Sources */,
+				2C628C031FAC0BAD00B53212 /* BeautyFilter.m in Sources */,
+				2C628C431FAC0BAD00B53212 /* APImageBlurVC.m in Sources */,
+				2C628C211FAC0BAD00B53212 /* InkwellFilter.m in Sources */,
+				2C628BBD1FAC0BAD00B53212 /* APDrawPathModel.m in Sources */,
+				2C628C3E1FAC0BAD00B53212 /* APFilterList.m in Sources */,
+				2C628C261FAC0BAD00B53212 /* SketchFilter.m in Sources */,
+				2C628BED1FAC0BAD00B53212 /* APImageTextVC.m in Sources */,
+				2C628BE31FAC0BAD00B53212 /* APImageTextFontCell.m in Sources */,
+				2C628C411FAC0BAD00B53212 /* APImageBlurBoard.m in Sources */,
+				2C628BE11FAC0BAD00B53212 /* APImageTextColorCell.m in Sources */,
+				2C628BCA1FAC0BAD00B53212 /* APCalibrationView.m in Sources */,
+				2C628BC61FAC0BAD00B53212 /* APImageDrawColorCell.m in Sources */,
+				2C628C011FAC0BAD00B53212 /* XMDrawView.m in Sources */,
+				2C628C0C1FAC0BAD00B53212 /* CrayonFilter.m in Sources */,
+				2C628BFC1FAC0BAD00B53212 /* APProgressView.m in Sources */,
+				2C628BB71FAC0BAD00B53212 /* APImageEnhanceVC.m in Sources */,
+				2C628BD01FAC0BAD00B53212 /* APCutSelView.m in Sources */,
+				2C628C081FAC0BAD00B53212 /* CoolFilter.m in Sources */,
+				2C628BE71FAC0BAD00B53212 /* APImageTextInputVC.m in Sources */,
+				2C628BB41FAC0BAD00B53212 /* APImageEditVC.m in Sources */,
+				2C628C191FAC0BAD00B53212 /* FairytaleFilter.m in Sources */,
+				2C628BC11FAC0BAD00B53212 /* APImageDrawboard.m in Sources */,
+				2C628C481FAC0BAD00B53212 /* APImageFilterModel.m in Sources */,
+				2C628BD51FAC0BAD00B53212 /* APImageCutModel.m in Sources */,
+				2C628BDB1FAC0BAD00B53212 /* XMTool.m in Sources */,
+				2C628C4D1FAC0BAD00B53212 /* APImageVignetteVC.m in Sources */,
+				2C628BE91FAC0BAD00B53212 /* APImageTextList.m in Sources */,
+				2C628BCC1FAC0BAD00B53212 /* APCutFrameView.m in Sources */,
+				2C628C4A1FAC0BAD00B53212 /* APImageFilterVC.m in Sources */,
+				2C628C361FAC0BAD00B53212 /* APImageColorModel.m in Sources */,
+				2C628BBF1FAC0BAD00B53212 /* APGestureView.m in Sources */,
+				2C628C381FAC0BAD00B53212 /* APMediaLibaryModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C628B061FAC0B6C00B53212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C628B071FAC0B6C00B53212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C628B091FAC0B6C00B53212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA558A627EF64B12507BB9A0 /* Pods-XImageEdit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LNXRPG37BW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XImageEdit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.areox.mifit.XImageEdit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2C628B0A1FAC0B6C00B53212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700373EC6DD3FB57206A19C2 /* Pods-XImageEdit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LNXRPG37BW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XImageEdit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.areox.mifit.XImageEdit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C628AFA1FAC0B6C00B53212 /* Build configuration list for PBXProject "XImageEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C628B061FAC0B6C00B53212 /* Debug */,
+				2C628B071FAC0B6C00B53212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C628B081FAC0B6C00B53212 /* Build configuration list for PBXNativeTarget "XImageEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C628B091FAC0B6C00B53212 /* Debug */,
+				2C628B0A1FAC0B6C00B53212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C628AF71FAC0B6C00B53212 /* Project object */;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13196"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="APProgressView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YpS-Wo-KgC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YpS-Wo-KgC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DAk-N8-KRT"/>
+                <constraint firstAttribute="trailing" secondItem="YpS-Wo-KgC" secondAttribute="trailing" id="Jgy-O3-tAo"/>
+                <constraint firstItem="YpS-Wo-KgC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ch0-zI-PNc"/>
+                <constraint firstAttribute="bottom" secondItem="YpS-Wo-KgC" secondAttribute="bottom" id="n3x-Jz-rbT"/>
+            </constraints>
+            <point key="canvasLocation" x="-234" y="14"/>
+        </view>
+    </objects>
+</document>
