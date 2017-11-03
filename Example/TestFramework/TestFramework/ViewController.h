@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  TestFramework
+//  XMImageEdit
 //
-//  Created by mifit on 2017/11/3.
+//  Created by mifit on 2017/10/30.
 //  Copyright © 2017年 Mifit. All rights reserved.
 //
 
