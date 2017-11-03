@@ -28,6 +28,16 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>UIAppFonts</key>
+    <array>
+        <string>咪咪体.ttf</string>
+        <string>左左梦巷.ttf</string>
+        <string>慌梦.ttf</string>
+        <string>萌妹子字体(6000字).ttf</string>
+        <string>玉米诗情体.ttf</string>
+        <string>优雅连笔字体.ttf</string>
+        <string>方圆硬笔行书简.ttf</string>
+    </array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
